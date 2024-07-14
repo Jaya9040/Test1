@@ -38,6 +38,7 @@ actions = ActionChains(driver)
 actions.move_to_element(element).perform()
 element.click()
 
+
 sleep(3)
 print("clicked on it")
 Expected_title = "JMeter Training"
